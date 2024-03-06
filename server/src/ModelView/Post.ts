@@ -1,4 +1,4 @@
-export type PostData = {
+export type Post = {
   id: number;
   userId: number;
   content: string;
@@ -6,10 +6,4 @@ export type PostData = {
   imageUrl?: string;
   likes: number;
   usersLike: number[];
-};
-
-export type UserData = {
-  id: number;
-  name: string;
-  avatar?: string;
 };

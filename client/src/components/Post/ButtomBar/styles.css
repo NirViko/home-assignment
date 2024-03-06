@@ -1,0 +1,22 @@
+.buttomBar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.likeCounter {
+    background: #1976d2;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    height: 18px;
+    border-radius: 21px;
+    font-size: 13px;
+    color: white;
+}
+
+.likeContiner {
+    display: flex;
+    padding-right: 9px;
+}
+  
